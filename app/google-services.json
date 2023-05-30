@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "515690365978",
+    "firebase_url": "https://fir-fitness-c88d1-default-rtdb.firebaseio.com",
+    "project_id": "fir-fitness-c88d1",
+    "storage_bucket": "fir-fitness-c88d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515690365978:android:505efe9bbea3ae49443da3",
+        "android_client_info": {
+          "package_name": "com.example.firebasefitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoxB_C6QSikx03ZfyzfC5vQdMtok5xGJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515690365978:android:d614c904139d25d5443da3",
+        "android_client_info": {
+          "package_name": "com.example.fitnessodev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoxB_C6QSikx03ZfyzfC5vQdMtok5xGJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

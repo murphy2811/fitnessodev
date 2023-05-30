@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#C664EF">
+
+    <TextView
+        android:textColor="#EEFF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="FİT ME HİT ME"
+        android:textStyle="bold"
+        android:textSize="50dp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="220dp"
+        android:text="Kullanıcı Adı"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/emaill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adınızı Giriniz"
+        android:textColorHint="#1E2EBA"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:text="Şifre"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:hint="Şifre Giriniz"
+        android:inputType="textPassword"
+        android:maxEms="10"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textColorHint="#3F51B5"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/giris"
+        android:textColor="#000000"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="250dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Giriş" />
+
+    <Button
+        android:id="@+id/kayit"
+        android:textColor="#000000"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Kayıt" />
+</RelativeLayout>
